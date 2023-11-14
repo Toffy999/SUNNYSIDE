@@ -1,0 +1,388 @@
+@media(min-width:768px){
+
+
+
+
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+.section-one{
+background: url(./image/images/desktop/image-header.jpg);
+height: 100vh;
+background-size: cover;
+background-repeat: no-repeat;
+}
+nav{
+display: flex;
+justify-content: space-between;
+padding: 20px 30px;
+}
+nav ul{
+display: flex;
+list-style: none;
+gap: 30px;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    font-style: italic;
+    font-size: 30px;
+    font-weight: 700;
+}
+nav button{
+    border: none;
+    padding: 10px 25px;
+    border-radius: 30px;
+  box-shadow: 1px 2px 3px;
+}
+.Creative{
+    text-align: center;
+    width: 50%;
+    margin: 7% auto;
+}
+.Creative h1{
+    font-size: 4rem;
+    color: white;
+    margin-bottom: 100px;
+}
+.section-2{
+ font-size: 20px;   
+    display: flex;
+    font-weight: 900;
+   
+}
+.section-2 img{
+    width: 50%;
+
+    }
+
+.transform{
+text-align: center;
+padding-top: 5cm;
+width: 50%;
+
+}
+.transform h4{
+    text-align: center;
+}
+.section-3{
+    font-size: 20px;
+    display: flex;
+}
+.stand{
+text-align: center;
+padding-top: 5cm ;
+}
+.bg-img1{
+    background-image: url(./image/images/desktop/image-graphic-design.jpg);
+    width: 50%;
+    height: 100vh;
+    text-align: center;
+    padding-top: 500px;
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: contain;
+    width: 50%;
+    
+}
+.bg-img h2P{
+    margin-top: 25px;
+}
+.bg-img2{
+    background-image: url(./image/images/desktop/image-photography.jpg);
+    width: 50%;
+    padding-top: 500px;
+    
+    height: 100vh;
+    text-align: center;
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    object-fit: contain;
+}
+.bg-img2 h4{
+    margin-top: 25px;
+}
+.img{
+
+    display: flex;
+}
+.clients{
+    text-align: center;
+gap: 2cm;
+}
+.ily{
+    padding-top: 30px;
+}
+.emily img{
+    border-radius: 60%;
+text-align: center;
+}
+.officer{
+    padding-top: 25px;
+
+}
+
+.thomas img{
+    border-radius: 60%;
+    text-align: center;
+    
+}
+.owner{
+    padding-top: 25px;
+}
+.jennie img{
+    border-radius: 60%;
+    text-align: center;
+    
+}
+.rare{
+    display: flex;
+    gap: 6cm;
+}
+.images{
+    display: flex;
+    width: 100%;
+}
+.images img{
+    width: 25%;
+}
+.end{
+    background-color: aqua;
+}
+.side{
+    text-align: center;
+    color: green;
+}
+.tt{
+    display: flex;
+    /* justify-content: space-between; */
+    /* padding: 5px 10px; */
+    color: green;
+    text-align: center;
+padding-left: 600px;
+gap: 2cm;
+list-style: none;
+}
+.icon{
+    padding-left: 600px;
+    gap: 5cm;
+    padding-top:60px ;
+}
+}
+
+@media(max-width:760px){
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        }
+        .section-one{
+        background: url(./image/images/desktop/image-header.jpg);
+        height: 100vh;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 15cm;
+        width:100% ;
+        }
+        nav{
+        display: flex;
+        justify-content: space-between;
+        padding: 20px 30px;
+        }
+        nav ul{
+        display: flex;
+        list-style: none;
+        gap: 30px;
+        }
+        nav a{
+            color: white;
+            text-decoration: none;
+            font-style: italic;
+            font-size: 20px;
+            font-weight: 700;
+        }
+        nav button{
+            border: none;
+            padding: 10px 25px;
+            border-radius: 30px;
+          box-shadow: 1px 2px 3px;
+        }
+        .Creative{
+            text-align: center;
+            width: 50%;
+            margin: 7% auto;
+        }
+        .Creative h1{
+            font-size: 4rem;
+            color: white;
+            margin-bottom: 100px;
+        }
+        .section-2{
+         font-size: 20px;   
+            display: flex;
+            font-weight: 900;
+           flex-direction: column;
+        }
+        .section-2 img{
+            width: 100%;
+        order: 1;
+            }
+        
+        .transform{
+        text-align: center;
+        padding-top: 2cm;
+        width: 100%;
+        order: 2;
+        height: 9cm;
+        }
+        .transform h4{
+            text-align: center;
+            order: 2;
+        }
+        .section-3{
+            font-size: 20px;
+            display: flex;
+            flex-direction: column;
+        }
+        .section-3 img{
+            order: 1;
+            width: 100%;
+        }
+        .stand{
+        text-align: center;
+        padding-top: 2cm ;
+        order: 2;
+        height: 9cm;
+        }
+        .bg-img1{
+            background-image: url(./image/images/desktop/image-graphic-design.jpg);
+            width: 50%;
+            height: 100vh;
+            text-align: center;
+            padding-top: 500px;
+            
+            background-size: cover;
+            background-repeat: no-repeat;
+            object-fit: contain;
+            width: 100%;
+            
+        }
+        .bg-img1 h2{
+            margin-top: 15px;
+            color: green;
+        }
+        .bg-img1 h4{
+            color: green;
+        }
+        .bg-img2{
+            background-image: url(./image/images/desktop/image-photography.jpg);
+            width: 100%;
+            padding-top: 500px;
+            
+            height: 100vh;
+            text-align: center;
+            
+            background-size: cover;
+            background-repeat: no-repeat;
+            
+            object-fit: contain;
+        }
+        .bg-img2 h2{
+            color: rgb(73, 73, 221);
+        }
+        .bg-img2 h4{
+            margin-top: 15px;
+color: rgb(73, 73, 250);
+        }
+        .img{
+        flex-direction: column;
+            display: flex;
+            
+        }
+        .clients{
+            text-align: center;
+        gap: 1cm;
+        }
+        .ily{
+            padding-top: 15px;
+        }
+        .emily img{
+            border-radius: 60%;
+        text-align: center;
+        order: 1;
+        }
+        .officer{
+            padding-top: 15px;
+        
+        }
+        
+        .thomas img{
+            border-radius: 60%;
+            text-align: center;
+            order: 2;
+        }
+        .owner{
+            padding-top: 15px;
+        }
+        .jennie img{
+            border-radius: 60%;
+            text-align: center;
+            order: 3;
+        }
+        .rare{
+            display: flex;
+            gap: 1cm;
+            flex-direction: column;
+            text-align: center;
+        }
+        .images{
+            display: flex;
+            /* width: 100%; */
+            flex-direction: column;
+        }
+        .images img{
+            width: 100%;
+        }
+        .milk{
+            order: 1;
+        }
+        .orange{
+            order: 2;
+        }
+        .cone{
+            order: 3;
+        }
+        .sugar{
+            order: 4;
+        }
+        .end{
+            background-color: aqua;
+        }
+        .side{
+            text-align: center;
+            color: green;
+        }
+        .tt{
+            display: flex;
+            /* justify-content: space-between; */
+            /* padding: 5px 10px; */
+            color: green;
+            text-align: center;
+        padding-left: 100px;
+        gap: 2cm;
+        list-style: none;
+        }
+        .icon{
+            padding-left: 100px;
+            margin: 10px;
+            padding-top:60px ;
+
+        }
+
+
+}
