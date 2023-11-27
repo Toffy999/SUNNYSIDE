@@ -176,6 +176,7 @@ list-style: none;
 }
 
 @media(max-width:760px){
+   
     *{
         padding: 0;
         margin: 0;
@@ -378,12 +379,12 @@ color: rgb(73, 73, 250);
             /* padding: 5px 10px; */
             color: green;
             text-align: center;
-        padding-left: 100px;
-        gap: 1cm;
+        padding-left: 50px;
+        gap: 0.5cm;
         list-style: none;
         }
         .icon{
-            padding-left: 180px;
+            padding-left: 50px;
             margin: 10px;
             padding-top:60px ;
 
