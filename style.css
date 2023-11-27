@@ -188,39 +188,44 @@ list-style: none;
         background-repeat: no-repeat;
         height: 15cm;
         width:100% ;
+        
         }
         nav{
-        display: flex;
+        /* display: flex; */
         justify-content: space-between;
-        padding: 20px 30px;
-        }
+        padding: 10px 20px;
+        
+    }
         nav ul{
-        display: flex;
+        /* display: flex; */
         list-style: none;
-        gap: 30px;
+        gap: 1cm;
+        line-height: 0.7cm;
         }
         nav a{
             color: white;
             text-decoration: none;
             font-style: italic;
-            font-size: 20px;
-            font-weight: 700;
+            font-size: 30px;
+            /* font-weight: 700; */
         }
         nav button{
             border: none;
-            padding: 10px 25px;
+            padding: 8px 20px; 
             border-radius: 30px;
           box-shadow: 1px 2px 3px;
+          padding-bottom: 10px;
+          width: 2cm;
         }
         .Creative{
             text-align: center;
             width: 50%;
-            margin: 7% auto;
+            margin: 0.5% auto;
         }
         .Creative h1{
-            font-size: 4rem;
+            font-size: 2rem;
             color: white;
-            margin-bottom: 100px;
+            /* margin-bottom: 100px; */
         }
         .section-2{
          font-size: 20px;   
@@ -264,7 +269,7 @@ list-style: none;
             width: 50%;
             height: 100vh;
             text-align: center;
-            padding-top: 500px;
+            padding-top: 300px;
             
             background-size: cover;
             background-repeat: no-repeat;
@@ -282,7 +287,7 @@ list-style: none;
         .bg-img2{
             background-image: url(./image/images/desktop/image-photography.jpg);
             width: 100%;
-            padding-top: 500px;
+            padding-top: 350px;
             
             height: 100vh;
             text-align: center;
@@ -374,11 +379,11 @@ color: rgb(73, 73, 250);
             color: green;
             text-align: center;
         padding-left: 100px;
-        gap: 2cm;
+        gap: 1cm;
         list-style: none;
         }
         .icon{
-            padding-left: 100px;
+            padding-left: 180px;
             margin: 10px;
             padding-top:60px ;
 
